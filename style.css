@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-div {
+  height: 100%;
+}
+
+aside {
+  width: 15%;
+  box-shadow: 10px 0px 14px 2px rgba(191, 191, 191, 0.19);
+}
+
+main {
+  width: 85%;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+#recodedLogo {
+  height: 24px;
+  width: auto;
+}
+
+.padding-2 {
+  padding: 16px;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-items-center {
+  align-items: center;
+}
+
+.nav-item {
+  padding-top: 32px;
+}
+
+.margin-left {
+  margin-left: 16px;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.selected {
+  color: orange;
+}
+
+.profile-small {
+  height: 32px;
+  width: 32px;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+.btn {
+  background-color: #2d2a43;
+  color: white;
+  border: none;
+  padding: 14px 18px;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #2d2a43;
+  border: 1px solid #2d2a43;
+  padding: 14px 18px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.header {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: -12px;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  border: 1px solid white;
+}
+
+.avatar:last-child {
+  margin-right: 0;
+}
