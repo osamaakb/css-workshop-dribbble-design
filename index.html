@@ -54,18 +54,154 @@
         </aside>
 
         <main class="padding-2">
-            <div class="flex text-right header">
+            <!-- head part -->
+            <div class="flex header">
                 <button class="btn-outline rounded">Join Lobby</button>
-                <button class="btn rounded margin-left">Start Quiz</button>
+                <button class="btn rounded margin-left shadow-sm">Start Quiz</button>
 
-                <div class="margin-left">
-                    <img class='avatar' src="images/profile.jpg" alt="profile">
-                    <img class='avatar' src="images/profile.jpg" alt="profile">
-                    <img class='avatar' src="images/profile.jpg" alt="profile">
-                    <img class='avatar' src="images/profile.jpg" alt="profile">
+                <div class="margin-left flex">
+                    <div class="flex number-avatar">
+                        +3
+                    </div>
+                    <img class='avatar rounded-full' src="images/profile.jpg" alt="profile">
+                    <img class='avatar rounded-full' src="images/profile.jpg" alt="profile">
+                    <img class='avatar rounded-full' src="images/profile.jpg" alt="profile">
+                    <img class='avatar rounded-full' src="images/profile.jpg" alt="profile">
                 </div>
             </div>
 
+            <!-- user info -->
+            <div class="flex flex-items-center">
+                <div class="relative">
+                    <img class="profile rounded-md" src="images/profile.jpg" alt="profile">
+                    <div
+                        class="icon-container flex flex-items-center rounded shadow-sm padding-sm rounded-full flame-icon absolute">
+                        <img class="icon" src="icons/flame.svg" alt="flame">
+                    </div>
+                </div>
+                <div class="w-full margin-left-lg">
+                    <h2>Osama .A</h2>
+                    <p class="text-light">Bonus Booster, 24 lv</p>
+                    <!-- progress bar -->
+                    <div class="progress-bar rounded relative">
+                        <div class="progress-bar-colored rounded absolute">
+
+                        </div>
+                    </div>
+                    <div class="flex flex-space-between">
+                        <div class="flex flex-justify-center flex-items-center">
+                            <div class="icon-container flex flex-items-center rounded shadow-sm padding-sm">
+                                <img class="icon padding-2" src="icons/flag.svg" alt="flag">
+                            </div>
+                            <div class="flex flex-dir-col margin-left">
+                                <h2>27</h2>
+                                <span class="text-light">Game Wins</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-justify-center flex-items-center">
+                            <div class="icon-container flex flex-items-center rounded shadow-sm padding-sm">
+                                <img class="icon" src="icons/up-arrow.svg" alt="arrow">
+                            </div>
+                            <div class="flex flex-dir-col margin-left">
+                                <h2>910</h2>
+                                <span class="text-light">Highest Score</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-justify-center flex-items-center">
+                            <div class="icon-container flex flex-items-center rounded shadow-sm padding-sm">
+                                <img class="icon" src="icons/check.svg" alt="check">
+                            </div>
+                            <div class="flex flex-dir-col margin-left">
+                                <h2>218</h2>
+                                <span class="text-light">Correct Answers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- achievements and inventory -->
+
+            <div class="flex flex-items-center">
+                <div class="card shadow-sm rounded">
+                    <div class="flex flex-space-between flex-items-center">
+                        <div class="flex flex-items-center">
+                            <h2>Achievements</h2>
+                            <div class="small-box flex  rounded margin-left">
+                                <span>8</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-items-center">
+                            <span class="text-light text-sm">8/200</span>
+                            <div class="progress-bar-sm rounded relative margin-left">
+                                <div class="progress-bar-colored rounded absolute">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hexagon-container flex">
+                        <div class="flex flex-dir-col flex-items-center">
+                            <div class="circle green-circle flex flex-items-center">
+                                <img class="icon-lg" src="/icons/power.svg" alt="">
+                            </div>
+                            <p class="text-center text-shadow" style="margin-top: 24px;">Comeback</p>
+                        </div>
+                        <div class="flex flex-dir-col flex-items-center">
+                            <div class="circle orange-circle flex flex-items-center">
+                                <img class="icon-lg" src="/icons/star.svg" alt="">
+                            </div>
+                            <p class="text-center text-shadow" style="margin-top: 24px;">Lucky</p>
+                        </div>
+                        <div class="flex flex-dir-col flex-items-center">
+                            <div class="circle pink-circle flex flex-items-center">
+                                <img class="icon-lg" src="/icons/group.svg" alt="">
+                            </div>
+                            <p class="text-center text-shadow" style="margin-top: 24px;">Leader</p>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <p class="text-center text-light">View all</p>
+                </div>
+                <div class="card shadow-sm rounded">
+                    <div class="flex flex-space-between flex-items-center">
+                        <div class="flex flex-items-center">
+                            <h2>Inventory</h2>
+                            <div class="small-box flex  rounded margin-left">
+                                <span>4</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-items-center">
+                            <span class="text-light text-sm">4/10</span>
+                            <div class="progress-bar-sm rounded relative margin-left">
+                                <div class="progress-bar-colored rounded absolute">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hexagon-container flex">
+                        <div class="flex flex-dir-col flex-items-center">
+                            <div class="circle green-circle flex flex-items-center">
+                                <img class="icon-lg" src="/icons/power.svg" alt="">
+                            </div>
+                            <p class="text-center text-shadow" style="margin-top: 24px;">Extra time</p>
+                        </div>
+                        <div class="flex flex-dir-col flex-items-center">
+                            <div class="circle orange-circle flex flex-items-center">
+                                <img class="icon-lg" src="/icons/star.svg" alt="">
+                            </div>
+                            <p class="text-center text-shadow" style="margin-top: 24px;">50/50</p>
+                        </div>
+                        <div class="flex flex-dir-col flex-items-center">
+                            <div class="circle pink-circle flex flex-items-center">
+                                <img class="icon-lg" src="/icons/group.svg" alt="">
+                            </div>
+                            <p class="text-center text-shadow" style="margin-top: 24px;">popular answer</p>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <p class="text-center text-light">View all</p>
+                </div>
+            </div>
         </main>
     </div>
 
